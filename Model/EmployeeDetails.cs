@@ -15,5 +15,7 @@ namespace Sample_EntityFrameworkCore_CodeFirstApproach.Context
         public string CompanyName { get; set; }
         public string Designation { get; set; }
         public float Salary { get; set; } // Added new field
+
+        public string Office_Address { get; set; } // Added new field
     }
 }
